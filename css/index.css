@@ -2,8 +2,10 @@
 margin: 0;
 padding: 0;
 }
+/* --------------------------------------GRADIENTE!!!!!! */
 body{
-    background-color: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 7%, rgba(33,33,33,1) 30%, rgba(79,79,79,1) 100%);
     border: 0.6rem solid #ebaacd;
     color: #d37ecb;
     text-transform: uppercase;
@@ -17,6 +19,19 @@ body{
     background-color: black;
     padding: 0.2rem 2rem;
 }
+/* --------------------------------------ANIMACION!!!!!! */
+@keyframes aparicion {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.precio-producto , .titulo-producto{
+    animation-duration: 1.5s;
+    animation-name: aparicion;
+    }
 li{
     display: inline-block;
     margin: 10px;
@@ -39,9 +54,15 @@ li{
 .main-container div{
     background-color: #ebaacd;
 }
+/* --------------------------------------TRANSICION!!!!!! */
 div img{
     width: 23rem;
     height: 23rem;
+    transition: transform 0.8s;
+}
+/* ------------------------------------TRANSFORMACION!!!!!! */
+div img:hover{
+    transform: scale(1.2);
 }
 a{
     text-decoration: none;
