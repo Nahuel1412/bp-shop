@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background-color: black;
+        border: 0.6rem solid #ebaacd;
+        color: #d37ecb;
+        text-transform: uppercase;
+        font-family: roboto;
+        font-weight: bold;
+    }
+    .barra-direccion{
+        display: flex;
+        max-width: 1210px;
+        justify-content: flex-start;
+        margin: auto;
+    }
+    .barra-direccion a{
+        color: white;
+    }
+    .menu-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 0.2rem 2rem;
+    }
+    li{
+        display: inline-block;
+        margin: 10px;
+    }
+    .logo img{
+        width: 17rem;
+    }
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(3, 24rem) ;
+        grid-template-rows: repeat(3, 24rem);
+        row-gap: 3rem;
+        column-gap: 1.8rem;
+        justify-content: center;
+        max-width: 1400px;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .main-container div{
+        background-color: #ebaacd;
+    }
+    div img{
+        width: 23rem;
+        height: 23rem;
+    }
+    a{
+        text-decoration: none;
+        color: #d37ecb;
+    
+    }
+    .caja-producto{
+        text-align: center;
+    }
+    .titulo-producto p{
+        color: #ebaacd;
+        background-color: black;
+    }
+    .precio-producto p{
+        color: #ebaacd;
+        background-color: black;
+    }
+    .social-footer{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    i{
+        margin: 1rem;
+    }
+    footer{
+        text-align: center;
+        margin: 3rem
+    }
+    
+    @media screen and (max-width:480px) {
+    
+        body{
+            background-color: black;
+            border: 0.6rem solid #ebaacd;
+            color: #d37ecb;
+            text-transform: uppercase;
+        }
+    
+        .logo img{
+                width: 10rem;
+        }
+    
+        /* .carrito{
+            display: none;
+        } */
+
+        .barra-direccion{
+            display: flex;
+            max-width: 270px;
+            justify-content: flex-start;
+            margin: auto;
+            font-size: 0.6em;
+        }
+
+        .menu-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: black;
+                padding: 0.2rem 2rem;
+        }
+            
+        .main-container{
+                display: grid;
+                grid-template-columns: repeat(1, 17rem) ;
+                grid-template-rows: repeat(9, 17rem);
+                row-gap: 3rem;
+                column-gap: 1.8rem;
+                justify-content: center;
+                max-width: 1400px;
+                margin: auto;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+        }
+    
+        div img{
+                width: 17rem;
+                height: 17rem;
+        }
+        a{
+            text-decoration: none;
+            color: #d37ecb;
+        }
+        li{
+            font-size: 0.7rem;
+            display: inline-block;
+            margin: 0.4rem;
+        }
+    }
+    
+    @media (min-width:481px) and (max-width:768px) {
+        body{
+            background-color: black;
+            border: 0.6rem solid #ebaacd;
+            color: #d37ecb;
+            text-transform: uppercase;
+        }
+    
+        .logo img{
+                width: 10rem;
+        }
+    
+        .barra-direccion{
+            display: flex;
+            max-width: 570px;
+            justify-content: flex-start;
+            margin: auto;
+            font-size: 0.8rem;
+        }
+
+        .menu-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: black;
+                padding: 0.2rem 2rem;
+        }
+            
+        .main-container{
+                display: grid;
+                grid-template-columns: repeat(2, 17rem) ;
+                grid-template-rows: repeat(5, 17rem);
+                row-gap: 3rem;
+                column-gap: 1.8rem;
+                justify-content: center;
+                max-width: 1400px;
+                margin: auto;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+        }
+    
+        div img{
+                width: 17rem;
+                height: 17rem;
+        }
+        a{
+            text-decoration: none;
+            color: #d37ecb;
+        }
+        li{
+            font-size: 0.9rem;
+            display: inline-block;
+            margin: 0.9rem;
+        }
+    }
+    
+    @media (min-width:769px) and (max-width:1024px) {
+    
+        body{
+            background-color: black;
+            border: 0.6rem solid #ebaacd;
+            color: #d37ecb;
+            text-transform: uppercase;
+        }
+    
+        .logo img{
+                width: 15rem;
+        }
+    
+        .barra-direccion{
+            display: flex;
+            max-width: 640px;
+            justify-content: flex-start;
+            margin: auto;
+            font-size: 0.9em;
+        }
+        
+        .menu-container{
+                display: flex;
+                /* flex-direction: column; */
+                align-items: center;
+                background-color: black;
+                padding: 0.2rem 2rem;
+        }
+            
+        .main-container{
+                display: grid;
+                grid-template-columns: repeat(2, 19rem) ;
+                grid-template-rows: repeat(5, 19rem);
+                row-gap: 3rem;
+                column-gap: 1.8rem;
+                justify-content: center;
+                max-width: 1400px;
+                margin: auto;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+        }
+    
+        div img{
+                width: 19rem;
+                height: 19rem;
+        }
+        a{
+            text-decoration: none;
+            color: #d37ecb;
+        }
+        li{
+            font-size: 1rem;
+            display: inline-block;
+            margin: 0.4rem;
+        }
+    }
