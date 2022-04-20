@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background: rgb(0,0,0);
+        border: 0.6rem solid #ebaacd;
+        color: #d37ecb;
+        text-transform: uppercase;
+        font-family: roboto;
+        font-weight: bold;
+    }
+    .barra-direccion{
+        display: flex;
+        max-width: 1210px;
+        justify-content: flex-start;
+        margin: auto;
+        margin-top:2rem
+    }
+    .barra-direccion a{
+        color: white;
+    }
+    .menu-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 0.2rem 2rem;
+    }
+    /* --------------------------------------ANIMACION!!!!!! */
+    @keyframes aparicion {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .precio-producto , .titulo-producto{
+        animation-duration: 1.5s;
+        animation-name: aparicion;
+        }
+    li{
+        display: inline-block;
+        margin: 10px;
+    }
+    .logo img{
+        width: 17rem;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1400px;
+        margin: auto;
+        gap: 2rem;
+        margin-top: 4rem;
+    }
+    .gift-card{
+        width: 55rem;
+        height: 38rem;
+        background-color: #ebaacd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gift-card img{
+        width: 40rem;
+        height: 40rem;
+    }
+    .description p{
+        margin: 2rem 0rem;
+    }
+    /* --------------------------------------TRANSICION!!!!!! */
+    div img{
+        width: 23rem;
+        height: 23rem;
+        transition: transform 0.8s;
+    }
+    /* ------------------------------------TRANSFORMACION!!!!!! */
+    div img:hover{
+        transform: scale(1.2);
+    }
+    a{
+        text-decoration: none;
+        color: #d37ecb;
+    }
+    .social-footer{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    i{
+        margin: 1rem;
+    }
+    footer{
+        text-align: center;
+        margin: 3rem;
+    }
+    
+    @media screen and (max-width:480px) {
+    
+        body{
+            background-color: black;
+            border: 0.6rem solid #ebaacd;
+            color: #d37ecb;
+            text-transform: uppercase;
+        }
+    
+        .logo img{
+                width: 10rem;
+        }
+    
+        /* .carrito{
+            display: none;
+        } */
+
+        .barra-direccion{
+            display: flex;
+            max-width: 270px;
+            justify-content: flex-start;
+            margin: auto;
+            margin-top: 1rem;
+            font-size: 0.6em;
+        }
+
+        .main-container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 1400px;
+            margin: auto;
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+        .gift-card{
+            width: 14rem;
+            height: 13rem;
+            background-color: #ebaacd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .gift-card img{
+            width: 13rem;
+            height: 13rem;
+        }
+        .description p, button{
+            margin: 1rem;
+            text-align: center;
+        }
+        .description{
+            font-size: 0.7rem;
+        }
+
+        button{
+            margin-left: 34%;
+        }
+
+        .menu-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: black;
+                padding: 0.2rem 2rem;
+        }
+            
+        a{
+            text-decoration: none;
+            color: #d37ecb;
+        }
+        li{
+            font-size: 0.7rem;
+            display: inline-block;
+            margin: 0.4rem;
+        }
+    }
+    
+    @media (min-width:481px) and (max-width:768px) {
+        body{
+            background-color: black;
+            border: 0.6rem solid #ebaacd;
+            color: #d37ecb;
+            text-transform: uppercase;
+        }
+    
+        .logo img{
+                width: 10rem;
+        }
+    
+        .barra-direccion{
+            display: flex;
+            max-width: 570px;
+            justify-content: flex-start;
+            margin: auto;
+            margin-top: 2rem;
+            font-size: 0.8rem;
+        }
+
+        .main-container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 1400px;
+            margin: auto;
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+        .gift-card{
+            width: 40rem;
+            height: 35rem;
+            background-color: #ebaacd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .gift-card img{
+            width: 40rem;
+            height: 40rem;
+        }
+        .description p, button{
+            margin: 2rem;
+            text-align: center;
+        }
+        .description{
+            font-size: 0.9rem;
+        }
+        button{
+            margin-left: 44%;
+        }
+
+        .menu-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: black;
+                padding: 0.2rem 2rem;
+        }
+            
+
+        a{
+            text-decoration: none;
+            color: #d37ecb;
+        }
+        li{
+            font-size: 0.9rem;
+            display: inline-block;
+            margin: 0.9rem;
+        }
+    }
+    
+    @media (min-width:769px) and (max-width:1024px) {
+    
+        body{
+            background-color: black;
+            border: 0.6rem solid #ebaacd;
+            color: #d37ecb;
+            text-transform: uppercase;
+        }
+    
+        .logo img{
+                width: 15rem;
+        }
+    
+        .barra-direccion{
+            display: flex;
+            max-width: 640px;
+            justify-content: flex-start;
+            margin: auto;
+            margin-top: 2rem;
+            font-size: 0.9em;
+        }
+
+        .main-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 900px;
+            margin: auto;
+            gap: 1rem;
+            margin-top: 4rem;
+        }
+        .gift-card{
+            width: 50rem;
+            height: 25rem;
+            background-color: #ebaacd;
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+        }
+        .gift-card img{
+            width: 25rem;
+            height: 25rem;
+        }
+        .description p{
+            margin: 1rem 0rem;
+            font-size: 0.9rem;
+        }
+
+        .menu-container{
+                display: flex;
+                align-items: center;
+                background-color: black;
+                padding: 0.2rem 2rem;
+        }
+            
+
+        a{
+            text-decoration: none;
+            color: #d37ecb;
+        }
+        li{
+            font-size: 1rem;
+            display: inline-block;
+            margin: 0.4rem;
+        }
+    }
