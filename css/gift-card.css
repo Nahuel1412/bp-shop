@@ -71,6 +71,11 @@
     .description p{
         margin: 2rem 0rem;
     }
+    button{
+        background-color: #ebaacd;
+        font-weight: bolder;
+        padding: 0.6rem;
+    }
     /* --------------------------------------TRANSICION!!!!!! */
     div img{
         width: 23rem;
