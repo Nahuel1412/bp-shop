@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     }
-body{
+    body{
         background: url(/images/LISA_BG6.webp) no-repeat;
         background-size: cover;
         background-position-y: 50%;
+        background-attachment: fixed;
         border: 0.6rem solid #ebaacd;
         color: #d37ecb;
         text-transform: uppercase;
@@ -130,7 +131,15 @@ body{
             max-width: 270px;
             justify-content: flex-start;
             margin: auto;
+            margin-top: 1rem;
             font-size: 0.6em;
+        }
+
+        .lalisa-img{
+            margin: 0 auto;
+            width: 19rem;
+            height: 8rem;
+            max-width: 1400px;
         }
 
         .menu-container{
@@ -186,7 +195,15 @@ body{
             max-width: 570px;
             justify-content: flex-start;
             margin: auto;
+            margin-top: 2rem;
             font-size: 0.8rem;
+        }
+
+        .lalisa-img{
+            margin: 0 auto;
+            width: 25rem;
+            height: 13rem;
+            max-width: 1400px;
         }
 
         .menu-container{
@@ -238,10 +255,18 @@ body{
                 width: 15rem;
         }
     
+        .lalisa-img{
+            margin: 0 auto;
+            width: 26rem;
+            height: 10rem;
+            max-width: 1400px;
+        }
+
         .barra-direccion{
             display: flex;
             max-width: 640px;
             justify-content: flex-start;
+            margin-top: 2rem;
             margin: auto;
             font-size: 0.9em;
         }
