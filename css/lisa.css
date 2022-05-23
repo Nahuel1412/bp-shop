@@ -3,7 +3,7 @@
     padding: 0;
     }
     body{
-        background: url(/images/LISA_BG6.webp) no-repeat;
+        background: url(../images/LISA_BG6.webp) no-repeat;
         background-size: cover;
         background-position-y: 50%;
         background-attachment: fixed;
