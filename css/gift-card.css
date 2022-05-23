@@ -90,6 +90,38 @@
         text-decoration: none;
         color: #d37ecb;
     }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 500px;
+        margin: auto;
+        margin-top: 60px;
+        text-align: center;
+        padding: 30px;
+        background-color: black;
+        border: 8px solid #ebaacd;
+    }
+    .newsletter button{
+        width: 450px;
+        height: 30px;
+        text-align: center;
+        margin: auto;
+        background-color:black;
+        border: 3px solid #ebaacd;
+        color: #ebaacd;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-family: 'roboto';
+    }
+    .newsletter form input{
+        width: 450px;
+        height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        border: 3px solid #ebaacd;
+    }
     .social-footer{
         display: flex;
         justify-content: center;
@@ -178,6 +210,38 @@
             font-size: 0.7rem;
             display: inline-block;
             margin: 0.4rem;
+        }
+        .newsletter{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            width: 200px;
+            margin: auto;
+            margin-top: 60px;
+            text-align: center;
+            padding: 30px;
+            background-color: black;
+            border: 8px solid #ebaacd;
+        }
+        .newsletter button{
+            width: 150px;
+            height: 30px;
+            text-align: center;
+            margin: auto;
+            background-color:black;
+            border: 3px solid #ebaacd;
+            color: #ebaacd;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-family: 'roboto';
+        }
+        .newsletter form input{
+            width: 150px;
+            height: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            border: 3px solid #ebaacd;
         }
     }
     
